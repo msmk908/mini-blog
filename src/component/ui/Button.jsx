@@ -7,6 +7,7 @@ const StyledButton = styled.button`
     border-width: 1px;
     border-radius: 8px;
     cursor: pointer;
+    background-color: grey;
 `;
 
 function Button(props) {

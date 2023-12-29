@@ -9,7 +9,7 @@ const Wrapper  = styled.div`
     justify-content : center;
 
     :not(:last-child){
-        margin-bottom : 16px;
+        margin-bottom : 2px;
     }
 `;
 
@@ -24,7 +24,7 @@ function CommentList(props){
                     <CommentListItem
                         key = {comment.id}
                         comment = {comment}
-                        />
+                    />
                 );
             })}
         </Wrapper>

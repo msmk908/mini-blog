@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
     width: calc(100% - 32px);
-    padding: 16px;
+    padding: 1px;
     display: flex;
     flex-direction: colum;
     align-items: flex-start;
@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     border: 1px solid grey;
     border-radius: 8px;
     cursor: pointer;
-    background: white;
+    background: grey;
     :hover{
         background: lightgrey;
     }
